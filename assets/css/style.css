@@ -1,0 +1,178 @@
+
+body {
+    font-size: 18px;
+    line-height: 34px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background-image: url("../imgs/letter_l.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #4aaaa5;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/*nav bar*/
+.container-fluid {
+    max-width: 960px;
+    padding: 0 5px 0 5px;
+    margin: auto;
+}
+
+.navbar-header {
+    background: #fff;
+    color: #fff;
+}
+
+.navbar-brand {
+    width: 250px;
+    height: 50px;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 20px;
+    color: white !important;
+    font-weight: 700;
+    font-size: 24px; 
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    background-color: #4aaaa5 !important;
+}
+
+a:link {
+    color: #777;
+}
+
+/*main index*/
+.row{
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.about {
+    margin: 20px 5px 20px -15px;
+    padding: 0 20px;
+    background-color: #ffffff; 
+    border: solid #efefef 2px;
+    opacity: .9;
+}
+.content-about {
+    font-size: 18px;
+    line-height: 1.75;
+    padding: 20px 0;
+    border-top: solid #ccc 2px;
+}
+
+#my-image{
+    float: left;
+    width: 200px;
+    margin: 10px 10px 10px 0;
+}
+
+/*main portfolio*/
+.work {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.img-thumbnail {
+    width: 75%;
+    padding-bottom: 10px;
+    margin: 0px 10px 20px 10px;
+}
+
+.img-title {
+    top: 60%;
+    left: 3%;
+    width: 75%;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    line-height: 1.5;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/*main contact*/
+input {
+    margin-bottom: 10px;
+    color: #777777; 
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type=text] {
+    border: 1px solid #ddd;
+}
+
+textarea {
+    border-color: #ccc;
+    margin-bottom: 10px;
+    color: #777777;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.submitbutton {
+    color: white;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: #4aaaa5;
+}
+
+/*sidebar panel*/
+.sidebarpanel {
+    float: left;
+    width: 30%;
+    margin: 20px 20px 10px;
+}
+
+h3#panel-title {
+    font-size: 20px;
+}
+
+#panel-body {
+    border-top: solid #ccc 2px;
+}
+.social {
+    width: 55px;
+    height: 55px;
+    margin: 10px 10px 20px 5px;
+}
+
+/*footer*/
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+}
